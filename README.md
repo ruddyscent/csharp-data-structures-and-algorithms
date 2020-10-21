@@ -1,5 +1,3 @@
-B09540 C# Data Structures and Algorithms
+C# Data Structures and Algorithms
 
-All code files are placed chapterwise
-
-Chapters 1 and 7 don't have code files.
+The source codes of [M. Jamro, C# Data Structures and Algorithms, 2018](https://www.packtpub.com/product/c-data-structures-and-algorithms/9781788833738). The original source code of this repository was downloaded from the publisher's homepage and modified for my own purpose. The publisher maintains [their own repository](https://github.com/PacktPublishing/-C-8-Data-Structures-and-Algorithms) on GitHub.
