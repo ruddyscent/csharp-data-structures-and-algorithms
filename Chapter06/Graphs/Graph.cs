@@ -83,7 +83,23 @@ namespace Graphs
             if (index >= 0)
             {
                 from.Neighbors.RemoveAt(index);
-                from.Weights.RemoveAt(index);
+                if (_isWeighted)
+                {
+                    from.Weights.RemoveAt(index);
+                }
+            }
+
+            if (!_isDirected)
+            {
+                index = to.Neighbors.FindIndex(n => n == from);
+                if (index >= 0)
+                {
+                    to.Neighbors.RemoveAt(index);
+                    if (_isWeighted)
+                    {
+                        to.Weights.RemoveAt(index);
+                    }
+                }
             }
         }
 
